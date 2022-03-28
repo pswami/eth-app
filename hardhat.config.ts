@@ -27,7 +27,9 @@ const config: HardhatUserConfig = {
   networks: {
     rinkeby: {
       url: "https://eth-rinkeby.alchemyapi.io/v2/tHTly1pV7vwDYtaJ-grR8cwVeeBGbNZs",
-      accounts: ["YOUR_PRIVATE_RINKEBY_ACCOUNT_KEY"]
+      accounts: [
+        "bfe3e38698eb51f7f01b1dd7b61bc03876f78fe308e6bc88a38194b76865db8a",
+      ],
     },
     ropsten: {
       url: process.env.ROPSTEN_URL || "",
